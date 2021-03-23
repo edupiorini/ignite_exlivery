@@ -22,7 +22,7 @@ defmodule Exlivery.Orders.CreateOrUpdate do
 
   defp build_item(%{
          description: description,
-         ategory: category,
+         category: category,
          unit_price: unit_price,
          quantity: quantity
        }) do
