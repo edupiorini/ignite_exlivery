@@ -2,7 +2,6 @@ defmodule ExliveryTest.Orders.AgentTest do
   use ExUnit.Case
 
   alias Exlivery.Orders.Agent, as: OrderAgent
-  alias Exlivery.Orders.User
 
   import Exlivery.Factory
 
